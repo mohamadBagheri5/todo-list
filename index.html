@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todoContainer">
+        <div class="todoContainer-head">
+          <h2>To Do List</h2>
+        </div>
+        <div class="todoContainer-toDoInput">
+          <p>New Todo</p>
+          <form id="addToDoForm">
+            <input
+              id="addToDoValeu"
+              name="todoname"
+              placeholder="Add to do task..."
+              type="text"
+            />
+            <button id="addBtn" type="submit">Add</button>
+          </form>
+        </div>
+        <div id="toDoList" class="todoContainer-toDoList">
+          <ul id="items" class="items"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
